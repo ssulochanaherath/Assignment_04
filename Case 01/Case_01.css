@@ -1,0 +1,43 @@
+section>div{
+    width: 300px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 15px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+
+    position: relative;
+    left: -200px;
+
+    transition-duration: 1s;
+}
+
+section>div>h3 {
+    height: fit-content;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto;
+
+    font-family: "Molengo", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+section>div>div {
+    height: fit-content;
+
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section>div:hover{
+    left: 0;
+}
